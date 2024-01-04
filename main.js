@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import WebGL from "three/addons/capabilities/WebGL.js";
+import { drawingLines } from "./drawing-lines";
 
 const createCube = () => {
   const scene = new THREE.Scene();
@@ -37,4 +38,10 @@ const createCube = () => {
   }
 };
 
+const createText = () => {
+
+}
+
 createCube();
+drawingLines();
+createText();
